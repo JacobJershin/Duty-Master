@@ -1,0 +1,288 @@
+.sidenav {
+  height: 100%;
+  width: 9vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #171b60;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.sidenav a {
+  padding: 6px 0px 6px 0.4vw;
+  text-decoration: none;
+  font-size: 1.67vw;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 11vw;
+  padding: 0px 10px;
+}
+@media screen and (max-width: 600px) {
+  .sidenav {
+    width: 100%;
+    height: 6vw;
+  }
+  .main {
+    margin-left: 0px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    padding-top: 11vw;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.ritz .waffle a {
+  color: inherit;
+}
+
+.ritz .waffle .location {
+  border-bottom: SOLID black 1px;
+  border-left: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #dce6f1;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: none;
+  text-decoration-skip-ink: none;
+  color: #1155cc;
+  font-family: "Arial";
+  font-size: clamp(6pt, min(1.3vw, 19pt), 10pt);
+  vertical-align: middle;
+  white-space: normal;
+  overflow: hidden;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 0.8vw 2px 0.8vw;
+  height: min(32px);
+}
+
+.ritz .waffle .titleA {
+  border-top: SOLID black 1px;
+  border-left: SOLID black 1px;
+  border-right: SOLID black 1px;
+
+  background-color: #f4cccc;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Arial";
+  font-size: clamp(10pt, min(1.4vw, 14pt), 32pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: min(1vw, 30px) 3px 1vw min(1vw, 30px);
+}
+.ritz .waffle .titleB {
+  border-top: SOLID black 1px;
+  border-left: SOLID black 1px;
+  border-right: SOLID black 1px;
+
+  background-color: #ccddf4;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Arial";
+  font-size: clamp(10pt, min(1.4vw, 14pt), 32pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: min(1vw, 30px) 3px 1vw min(1vw, 30px);
+}
+
+.ritz .waffle .teacher {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #ffffff;
+  text-align: left;
+  color: #000000;
+  font-family: "docs-Calibri", Arial;
+  font-size: clamp(6pt, min(1.3vw, 19pt), 9pt);
+  vertical-align: top;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .time {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  border-top: SOLID black 1px;
+  background-color: #d9ead3;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "arial";
+  font-size: clamp(6pt, min(1vw, 10pt), 1vw);
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .empty {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #ff3030;
+  text-align: center;
+  color: #000000;
+  font-family: "docs-Calibri", Arial;
+  font-size: clamp(6pt, min(1.3vw, 19pt), 10pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .lunchTime {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #000000;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "arial";
+  font-size: clamp(6pt, min(1vw, 10pt), 1vw);
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .tableTitle {
+  border: SOLID black 1px;
+  background-color: #ead1dc;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "arial";
+  font-size: min(2vw, 18pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+.ritz .waffle .period {
+  border-right: SOLID black 1px;
+  border-top: SOLID black 1px;
+  background-color: #b6d7a8;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "arial";
+  font-size: clamp(7pt, min(1.4vw, 14pt), 26pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 0.9vw 3px 0.9vw 3px;
+}
+
+.ritz .waffle .lunchDutyOne {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #cfe2f3;
+  text-align: center;
+  color: #000000;
+  font-family: "Arial";
+  font-size: clamp(6pt, min(1.3vw, 19pt), 9pt);
+  vertical-align: middle;
+  white-space: normal;
+  overflow: hidden;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .lunchDutyTwo {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #f4cccc;
+  text-align: center;
+  color: #000000;
+  font-family: "Arial";
+  font-size: clamp(6pt, min(1.3vw, 19pt), 9pt);
+  vertical-align: middle;
+  white-space: normal;
+  overflow: hidden;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .Security {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #ff0000;
+  font-family: "Arial";
+  font-size: clamp(6pt, min(1.3vw, 19pt), 9pt);
+  vertical-align: middle;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .noDuty {
+  border-bottom: SOLID black 1px;
+  border-right: SOLID black 1px;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-style: italic;
+  color: #000000;
+  font-family: "arial";
+  font-size: clamp(6pt, min(1.3vw, 19pt), 9pt);
+  vertical-align: middle;
+  white-space: normal;
+  overflow: hidden;
+  word-wrap: break-word;
+  direction: ltr;
+  padding: 2px 3px 2px 3px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mainTitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: clamp(29pt, min(1.8vw, 29pt), 29pt);
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0.1rem;
+  animation: fadeIn 3s;
+}
+.titleLine {
+  width: 90%;
+  border-top: 1px solid grey;
+  padding-bottom: 15px;
+  margin-left: -1vw;
+}
+
+.ritz {
+  padding-top: 50px;
+  width: min(100%, 1000px);
+}
